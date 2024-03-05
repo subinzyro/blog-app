@@ -1,0 +1,125 @@
+/* -------------------show--------------------- */
+/* body{
+    background-color: aqua;
+} */
+#showbody{
+    background-image: url("/static/img/blog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+#blogbox{
+    border: 2px solid black;
+    width: 75%;
+    padding: 10px;
+    margin-left: 5%;
+    /* background-color: rgb(0, 0, 0); */
+    /* background: transparent; */
+    opacity: 1;
+    backdrop-filter: blur(12px);
+    
+}
+#blogbox button a{
+    text-decoration: none;
+}
+
+#blogname{
+ text-align: center;
+ filter: drop-shadow(0 0 10px #3d3d3d);
+ 
+}
+#addblog{
+   
+    /* position: fixed; */
+    text-align: end;
+    
+}
+#addblog button{
+    margin-right: 5%;
+    /* position: absolute; */
+}
+#addblog a{
+    text-decoration: none;
+    color: black;
+}
+#delbtn button {
+    margin-left: 2%;
+    display: flex;
+    float: inline-end;
+}
+#delbtn button a{
+    color: black;
+
+}
+/* #delbtn:hover{
+    background-color: black;
+    color: black;
+} */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+
+/* -------------------show--------------------- */
+
+/* -------------------index------------------------ */
+
+#indexbody{
+    background-image: url("/static/img/blog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+.post-form{
+    border: 2px solid black;
+    max-width: 40%;
+    padding-left: 50px;
+    margin-left: 25%;
+    padding-bottom: 50px;
+    opacity: 1;
+    backdrop-filter: blur(12px);
+    margin-top: 5%;
+    margin-bottom: 5%;
+   contain: content;
+
+}
+/* textarea{
+    max-width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30px;
+    height: 2px;
+} */
+
+
+/* -------------------index------------------------ */
+#homebutton{
+    color: black;
+}
+
+/* #homebutton:hover{
+    color: gray;
+} */
+
+
+/* -----------------edit-------------- */
+#updatebtn button a{
+
+    text-decoration: none;
+    color: black;
+}
+.editpage{
+    background-image: url("/static/img/blog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* -----------------edit-------------- */
